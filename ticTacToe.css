@@ -1,0 +1,33 @@
+input {
+    height: 80px;
+    font-size: 20px;
+    width: 80px;
+    background-color: white;
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-style: italic;
+}
+
+.main.disabled{
+    pointer-events: none;
+}
+
+.disabled input {
+    background-color: lightgrey;
+}
+
+.turn{
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: red;
+}
